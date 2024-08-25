@@ -2,5 +2,19 @@
 @import 'libs.scss';
 
 //код писать тута -->
+:root {
+    --color-orange-lin: linear-gradient(to right, #F85D2F, #F69311);
+    --color-blue-lin: linear-gradient(to right, #5380E9, #245EE0);
+    --color-red-lin: linear-gradient(to right, #F24428, #DB3D34);
+    --color-red-lin: linear-gradient(to right, #F24428, #DB3D34);
+    --color-black: #1A1919;
+}
+
+body {
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+}
 
 @import 'media_queries.scss';
