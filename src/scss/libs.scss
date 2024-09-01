@@ -1,3 +1,24 @@
 // css из node_modules @import 'node_modules/...'
 @import '../../node_modules/normalize.css/normalize';
 @import './reset.scss';
+//bootstrap
+//растояние между столбацми
+$grid-gutter-width: 30px;
+//точки останова
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  ) !default;
+//ширина контейнера
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  ) !default;
+//включние css grid
+$enable-cssgrid: true;
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
