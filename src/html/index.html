@@ -58,8 +58,8 @@
                     <h2 class="title">
                         Популярные туры
                     </h2>
-                    <div class="list-tours">
-                        <div class="list-tours__item">
+                    <div class="list-tours grid">
+                        <div class="list-tours__item g-col-6">
                             <img class="list-tours__img" src="img/bangok.jpg" alt="bangok">
                             <div class="list-tours__wrap-text">
                                 <h3 class="list-tours__title">Банкок</h3>
@@ -67,24 +67,29 @@
                                 <p class="list-tours__text">Бангкок — это идеальное место для того чтобы познакомиться с
                                     тайской кухней. Здесь есть как большое количество ресторанов, ориентированных на
                                     туристов, так и обычных кафе, где ежедневно питаются местные жители</p>
+                                <div class="list-tours__btn">От 4 560 ₽</div>
                             </div>
                         </div>
-                        <div class="list-tours__item">
-                            <img class="list-tours__img" src="img/paris.jpg" alt="paris">
-                            <div class="list-tours__wrap-text">
-                                <h3 class="list-tours__title">Париж</h3>
-                                <p class="list-tours__subtitle">Франция</p>
-                                <p class="list-tours__text">Трансконтинентальное государство, включающее основную
-                                    территорию в Западной Европе и ряд заморских регионов и территорий.</p>
+                        <div class="list-tours__items-wrapper grid">
+                            <div class="list-tours__item g-col-6 g-start-6">
+                                <img class="list-tours__img" src="img/paris.jpg" alt="paris">
+                                <div class="list-tours__wrap-text">
+                                    <h3 class="list-tours__title">Париж</h3>
+                                    <p class="list-tours__subtitle">Франция</p>
+                                    <p class="list-tours__text">Трансконтинентальное государство, включающее основную
+                                        территорию в Западной Европе и ряд заморских регионов и территорий.</p>
+                                    <div class="list-tours__btn">От 7 810 ₽</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="list-tours__item">
-                            <img class="list-tours__img" src="img/praga.jpg" alt="praga">
-                            <div class="list-tours__wrap-text">
-                                <h3 class="list-tours__title">Прага</h3>
-                                <p class="list-tours__subtitle">Чехия</p>
-                                <p class="list-tours__text">Статутный город и столица Чешской Республики,
-                                    административный центр Среднечешского края и двух его районов</p>
+                            <div class="list-tours__item g-col-6 g-start-6">
+                                <img class="list-tours__img" src="img/praga.jpg" alt="praga">
+                                <div class="list-tours__wrap-text">
+                                    <h3 class="list-tours__title">Прага</h3>
+                                    <p class="list-tours__subtitle">Чехия</p>
+                                    <p class="list-tours__text">Статутный город и столица Чешской Республики,
+                                        административный центр Среднечешского края и двух его районов</p>
+                                    <div class="list-tours__btn">От 7 810 ₽</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,8 +102,8 @@
                     <h2 class="title">
                         Бесплатно помогаем найти билеты дешевле
                     </h2>
-                    <div class="free-tickets__description">
-                        <div class="free-tickets__description-text-wrapper">
+                    <div class="row free-tickets__description">
+                        <div class="col-7 free-tickets__description-text-wrapper">
                             <p class="free-tickets__description-text1">AVIA TICKET — крупнейший поисковик авиабилетов.
                                 Мы сравниваем все доступные варианты перелётов по вашему запросу, а потом направляем вас
                                 для покупки на официальные сайты авиакомпаний и агентств.
@@ -106,31 +111,45 @@
                             <p class="free-tickets__description-text2">Стоимость авиабилета, которую вы видите на AVIA
                                 TICKET — финальная. Мы убрали все скрытые услуги и галочки.</p>
                         </div>
-                        <img src="img/airplane.png" alt="airplane">
+                        <img class="col-5" src="img/airplane.png" alt="airplane">
                     </div>
                     <div class="popular-questions">
                         <h3 class="popular-questions__title">Ответы на популярные вопросы</h3>
-                        <div class="popular-questions-item">
-                            <div class="popular-questions-item__inner">
-                                <h4 class="popular-questions-item__title">Зачем пользоваться AVIA TICKET?</h4>
-                                <p class="popular-questions-item__text">Чтобы не открывать десятки разных сайтов, не
-                                    путаться во вкладках и не сравнивать цены вручную.</p>
+                        <div class="row popular-questions-item-wrapper">
+                            <div class="col-4">
+                                <div class="popular-questions-item">
+                                    <div class="popular-questions-item__inner">
+                                        <h4 class="popular-questions-item__title">Зачем пользоваться AVIA TICKET?</h4>
+                                        <p class="popular-questions-item__text">Чтобы не открывать десятки разных
+                                            сайтов, не
+                                            путаться во вкладках и не сравнивать цены вручную.</p>
+                                    </div>
+                                    <span>1</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="popular-questions-item">
-                            <div class="popular-questions-item__inner">
-                                <h4 class="popular-questions-item__title">Откуда у нас билеты?</h4>
-                                <p class="popular-questions-item__text">Агентства очень полезные. Они предлагают рейсы в
-                                    самые экзотические и удаленные места — такие билеты не найти просто на сайте
-                                    авиакомпании</p>
+                            <div class="col-4">
+                                <div class="popular-questions-item">
+                                    <div class="popular-questions-item__inner">
+                                        <h4 class="popular-questions-item__title">Откуда у нас билеты?</h4>
+                                        <p class="popular-questions-item__text">Агентства очень полезные. Они предлагают
+                                            рейсы в
+                                            самые экзотические и удаленные места — такие билеты не найти просто на сайте
+                                            авиакомпании</p>
+                                    </div>
+                                    <span>2</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="popular-questions-item">
-                            <div class="popular-questions-item__inner">
-                                <h4 class="popular-questions-item__title">Меня не обманут?</h4>
-                                <p class="popular-questions-item__text">Из поиска Aviasales.ru вы переходите на
-                                    официальный сайт ави акомпании или агентства и покупаете билет напрямую. И нам не
-                                    всё равно, что будет с вами дальше.</p>
+                            <div class="col-4">
+                                <div class="popular-questions-item">
+                                    <div class="popular-questions-item__inner">
+                                        <h4 class="popular-questions-item__title">Меня не обманут?</h4>
+                                        <p class="popular-questions-item__text">Из поиска Aviasales.ru вы переходите на
+                                            официальный сайт ави акомпании или агентства и покупаете билет напрямую. И
+                                            нам не
+                                            всё равно, что будет с вами дальше.</p>
+                                    </div>
+                                    <span>3</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -226,104 +245,304 @@
                                 <span class="review-slider-item-date">20.20.2020</span>
                             </div>
                         </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar1.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar2.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar3.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar1.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar2.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
+                        <div class="review-slider-item">
+                            <div class="review-slider-item__inner">
+                                <div class="review-slider-item__top">
+                                    <div class="review-slider-item__avatar-wrapper">
+                                        <img src="img/avatar3.png" alt="avatar" class="review-slider-item__avatar-img">
+                                    </div>
+                                    <div class="review-slider-item__text-wrapper">
+                                        <span class="review-slider-item__name-text">Валерий Иванов</span>
+                                        <p class="review-slider-item__route-text">
+                                            Москва
+                                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.93896 4.14733L6.81396 7.27233C6.75414 7.33175 6.66523 7.34985 6.58691 7.31751C6.50898 7.28536 6.45834 7.20926 6.45834 7.12505V6.70839C6.45834 6.65305 6.48031 6.60014 6.51937 6.56108L8.66375 4.41671H0.20834C0.0931836 4.41669 0 4.32352 0 4.20837V3.79171C0 3.67655 0.0931836 3.58337 0.20834 3.58337H8.66375L6.51937 1.43899C6.48031 1.39993 6.45834 1.34704 6.45834 1.29169V0.875028C6.45834 0.79079 6.509 0.714715 6.58691 0.682567C6.61275 0.671785 6.6398 0.666688 6.66666 0.666688C6.72078 0.666688 6.77408 0.68784 6.81396 0.727723L9.93896 3.85272C10.0204 3.93411 10.0204 4.06595 9.93896 4.14733Z"
+                                                    fill="#1A1919" />
+                                            </svg>
+                                            Берлин
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="review-slider-item__text">
+                                    Срочно нужен был билет, на сайте искал и заказывал. Всё сделали быстро, без лишних
+                                    анкет и вопросов. Кстати, цена весьма порадовала, достаточно дешево. Качество
+                                    обслуживания не сравнится с другими сервисами. Очень доволен, рекомендую
+                                </p>
+                                <span class="review-slider-item-date">20.20.2020</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="questions">
-            <div class="questions__inner">
-                <div class="container-xl">
+            <div class="container-xl">
+                <div class="questions__inner">
                     <div class="questions__left">
                         <h2 class="title">Остались вопросы?</h2>
                         <p class="questions__subtitle">Свяжитесь с нами, что бы задать вопрос, оставить отзыв, <br> или
                             предложить улучшение нашего сервиса</p>
                         <span class="questions__text">Как с вами удобно связаться?</span>
-                        <div class="tab">
-                            <div class="tab-content" id="content-1">
-                                Телефон
+                        <div class="tabs">
+                            <div class="tabs__nav">
+                                <button class="tabs__nav-btn active" type="button" data-tab="#tab_1">
+                                    Телефон
+                                </button>
+                                <button class="tabs__nav-btn" type="button" data-tab="#tab_2">
+                                    WhatsApp
+                                </button>
+                                <button class="tabs__nav-btn" type="button" data-tab="#tab_3">
+                                    Telegram
+                                </button>
                             </div>
-                            <div class="tab-content" id="content-2">
-                                WhatsApp
-                            </div>
-                            <div class="tab-content" id="content-3">
-                                Telegram
-                            </div>
-                            <div class="tab-nav">
-                                <a class="tab-link" href="#content-1">
+                            <div class="tabs__content">
+                                <div class="tabs__item active" id="tab_1">
                                     <p class="tab-text">Заполните данные что бы мы могли с вами связаться</p>
-                                    <form action="#">
+                                    <form class="tab-form" action="#">
                                         <label class="tab-label">
                                             Ваше имя
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             Номер телефона
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             Коментарий
-                                            <textarea class="tab-text-area"></textarea>
+                                            <div class="tab-wrap-input">
+                                                <textarea class="tab-text-area"></textarea>
+                                            </div>
                                         </label>
                                         <button class="tab-btn" type="submit">
                                             Отправить заявку
                                             <img class="tab-btn-img" src="img/airplane-bg-btn.png" alt="airplane">
                                         </button>
                                         <div class="tab-wrapper">
-                                            <input class="tab-checkbox" type="checkbox">
-                                            <p class="tab-agreement">Даю согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            <label>
+                                                <input class="tab-checkbox" type="checkbox">
+                                                <span class="tab-checkbox-style"></span>
+                                                <p class="tab-agreement">Даю согласие на обработку персональных данных и
+                                                    соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            </label>
                                         </div>
                                     </form>
-                                </a>
-                                <a class="tab-link" href="#content-2">
+                                </div>
+                                <div class="tabs__item" id="tab_2">
                                     <p class="tab-text">Заполните данные что бы мы могли с вами связаться</p>
-                                    <form action="#">
+                                    <form class="tab-form" action="#">
                                         <label class="tab-label">
                                             Ваше имя
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             WhatsApp
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             Коментарий
-                                            <textarea class="tab-text-area"></textarea>
+                                            <div class="tab-wrap-input">
+                                                <textarea class="tab-text-area"></textarea>
+                                            </div>
                                         </label>
                                         <button class="tab-btn" type="submit">
                                             Отправить заявку
                                             <img class="tab-btn-img" src="img/airplane-bg-btn.png" alt="airplane">
                                         </button>
                                         <div class="tab-wrapper">
-                                            <input class="tab-checkbox" type="checkbox">
-                                            <p class="tab-agreement">Даю согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            <label>
+                                                <input class="tab-checkbox" type="checkbox">
+                                                <span class="tab-checkbox-style"></span>
+                                                <p class="tab-agreement">Даю согласие на обработку персональных данных и
+                                                    соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            </label>
                                         </div>
                                     </form>
-                                </a>
-                                <a class="tab-link" href="#content-3">
+                                </div>
+                                <div class="tabs__item" id="tab_3">
                                     <p class="tab-text">Заполните данные что бы мы могли с вами связаться</p>
-                                    <form action="#">
+                                    <form class="tab-form" action="#">
                                         <label class="tab-label">
                                             Ваше имя
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             Telegram
-                                            <input type="text" class="tab-input">
+                                            <div class="tab-wrap-input">
+                                                <input type="text" class="tab-input">
+                                            </div>
                                         </label>
                                         <label class="tab-label">
                                             Коментарий
-                                            <textarea class="tab-text-area"></textarea>
+                                            <div class="tab-wrap-input">
+                                                <textarea class="tab-text-area"></textarea>
+                                            </div>
                                         </label>
                                         <button class="tab-btn" type="submit">
                                             Отправить заявку
                                             <img class="tab-btn-img" src="img/airplane-bg-btn.png" alt="airplane">
                                         </button>
                                         <div class="tab-wrapper">
-                                            <input class="tab-checkbox" type="checkbox">
-                                            <p class="tab-agreement">Даю согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            <label>
+                                                <input class="tab-checkbox" type="checkbox">
+                                                <span class="tab-checkbox-style"></span>
+                                                <p class="tab-agreement">Даю согласие на обработку персональных данных и
+                                                    соглашаюсь с <a href="#">политикой конфидициальности</a></p>
+                                            </label>
                                         </div>
                                     </form>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
